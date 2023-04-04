@@ -19,7 +19,12 @@ function Footer() {
         {socialLinks.map((socialLink) => {
           return (
             <li key={socialLink.id}>
-              <a href={socialLink.href} target="_blank" className="footer-icon">
+              <a
+                href={socialLink.href}
+                target="_blank"
+                className="footer-icon"
+                rel="noreferrer"
+              >
                 <i className={socialLink.icon}></i>
               </a>
             </li>

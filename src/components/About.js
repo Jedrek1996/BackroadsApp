@@ -22,9 +22,7 @@ function About() {
             quisquam harum nam cumque temporibus explicabo dolorum sapiente odio
             unde dolor?
           </p>
-          <a href="#" className="btn">
-            read more
-          </a>
+          <div className="btn">read more</div>
         </article>
       </div>
     </section>
